@@ -1,14 +1,12 @@
 import './App.css';
 import Navbar from "./Navbar"
-import Footer from './Footer';
-import Faq from './Faq';
+import Hero from './components/Hero'
 
 function App() {
   return (
-    <div className="App">
+    <div className="h-screen bg-black bg-opacity-75 bg-[url('https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg')] bg-blend-darken" >
       <Navbar/>
-      <Faq/>
-      <Footer/>
+      <Hero/>
     </div>
   );
 }

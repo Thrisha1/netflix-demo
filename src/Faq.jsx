@@ -1,6 +1,6 @@
 import {
   Accordion,
-  AccordionContent,
+  AccordionContent ,
   AccordionPanel,
   AccordionTitle,
 } from "flowbite-react";
