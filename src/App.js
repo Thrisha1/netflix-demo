@@ -1,10 +1,14 @@
 import './App.css';
+import Navbar from "./Navbar"
+import Footer from './Footer';
+import Faq from './Faq';
 
 function App() {
   return (
     <div className="App">
-     <h1 className="text-red-500" >Hello World</h1>
-     <h1 className="text-red-500" >Hello friends</h1>
+      <Navbar/>
+      <Faq/>
+      <Footer/>
     </div>
   );
 }
