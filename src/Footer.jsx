@@ -9,12 +9,15 @@ const Footer = () => {
             href="#"
             class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white"
           >
-            <img src="https://imgs.search.brave.com/o_Qfx8kjPHmgW0HIEMncXFwKp9f3nxAjtmPl3sBE9lU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMubmZseGV4dC5j/b20vZmZlL3NpdGV1/aS9hY3F1aXNpdGlv/bi9ob21lL25mbHhs/b2dvLnBuZw" alt="" />
+            <img
+              src="https://imgs.search.brave.com/o_Qfx8kjPHmgW0HIEMncXFwKp9f3nxAjtmPl3sBE9lU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMubmZseGV4dC5j/b20vZmZlL3NpdGV1/aS9hY3F1aXNpdGlv/bi9ob21lL25mbHhs/b2dvLnBuZw"
+              alt=""
+            />
           </a>
           <p class="my-6 text-gray-500 dark:text-gray-400">
             A software to watch movies
           </p>
-          <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+          <ul class="flex flex-wrap justify-center items-center mb-6 text-white">
             <li>
               <a href="#" class="mr-4 hover:underline md:mr-6 ">
                 About

@@ -1,12 +1,33 @@
 import './App.css';
 import Navbar from "./Navbar"
-import Hero from './components/Hero'
+import Footer from './Footer.jsx';
+import MainPage from './components/MainPage.jsx';
+import Login from './components/Login.jsx';
+import {
+  BrowserRouter,
+  Route,
+  Routes,
+} from "react-router-dom";
+import Content from './components/Content.jsx';
 
 function App() {
   return (
-    <div className="h-screen bg-black bg-opacity-75 bg-[url('https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg')] bg-blend-darken" >
-      <Navbar/>
-      <Hero/>
+    <div className="bg-black bg-opacity-75 bg-[url('https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg')] bg-blend-darken" >
+      <BrowserRouter>
+        <Navbar />
+
+        <Routes>
+
+          <Route path='/' element={<MainPage />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/content' element={<Content/>} />
+          
+          
+        </Routes>
+
+
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

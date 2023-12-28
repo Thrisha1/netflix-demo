@@ -1,19 +1,21 @@
 import {
   Accordion,
-  AccordionContent ,
+  AccordionContent,
   AccordionPanel,
   AccordionTitle,
 } from "flowbite-react";
 
 function Faq() {
   return (
-    <div className="p-5">
-      <div className="text-3xl font-bold text-center my-12">
+    <div className="bg-black py-12 px-44">
+      <div className="text-3xl text-white font-bold text-center mb-12">
         Frequently Asked Questions
       </div>
-      <Accordion className="bg-white" >
+      <Accordion className="bg-black focus:bg-black">
         <AccordionPanel>
-          <AccordionTitle className="text-red-500">What is Flowbite?</AccordionTitle>
+          <AccordionTitle className="text-red-500">
+            What is Flowbite?
+          </AccordionTitle>
           <AccordionContent>
             <p className="mb-2 text-red-500">
               Flowbite is an open-source library of interactive components built
@@ -34,7 +36,7 @@ function Faq() {
           </AccordionContent>
         </AccordionPanel>
         <AccordionPanel>
-          <AccordionTitle>Is there a Figma file available?</AccordionTitle>
+          <AccordionTitle className="text-red-500">Is there a Figma file available?</AccordionTitle>
           <AccordionContent>
             <p className="mb-2 text-gray-500 dark:text-gray-400">
               Flowbite is first conceptualized and designed using the Figma
@@ -55,7 +57,7 @@ function Faq() {
           </AccordionContent>
         </AccordionPanel>
         <AccordionPanel>
-          <AccordionTitle>
+          <AccordionTitle className="text-red-500">
             What are the differences between Flowbite and Tailwind UI?
           </AccordionTitle>
           <AccordionContent>

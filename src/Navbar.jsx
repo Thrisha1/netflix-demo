@@ -1,4 +1,6 @@
+
 import React from 'react'
+import Button from './components/Button'
 
 const Navbar = () => {
   return (
@@ -6,18 +8,18 @@ const Navbar = () => {
         {/* left side */}
         <div className="">
             {/* logo */}
-            <img className='w-12 sm:w-60 md:w-80' src="https://imgs.search.brave.com/wgBHIIfgssVBtfwYC227BBTnm530qhqvzVGm1YSiFgg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMubmZseGV4dC5j/b20vZmZlL3NpdGV1/aS9hY3F1aXNpdGlv/bi9ob21lL25mbHhs/b2dvLnBuZw" alt="" />
+            <img className='w-44' src="https://imgs.search.brave.com/wgBHIIfgssVBtfwYC227BBTnm530qhqvzVGm1YSiFgg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMubmZseGV4dC5j/b20vZmZlL3NpdGV1/aS9hY3F1aXNpdGlv/bi9ob21lL25mbHhs/b2dvLnBuZw" alt="" />
         </div>
 
         {/* right side */}
-        {/* <div className="flex gap-5 items-center">
+        <div className="flex gap-5 items-center">
             <select className='text-lg border-2 border-red-500 w-32 h-12 bg-red-500 text-white rounded-md'>
                 <option value="english">English</option>
                 <option value="malayalam">malayalam</option>
             </select>
-            <button className='text-lg border-2 border-red-500 w-24 h-12 text-red-500 rounded-md hover:bg-red-500 hover:text-white'>SignUp</button>
-            <button className='text-lg border-2 border-red-500 w-24 h-12 text-red-500 rounded-md font-bold hover:bg-red-500 hover:text-white'>SignIn</button>
-        </div> */}
+            <Button title="SignUp" />
+            <Button title="SignIn" />
+        </div>
     </div>
   )
 }
