@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Content from './components/Content.jsx';
 import DisplayPage from './components/DisplayPage.jsx'
+import AddMovie from './pages/Addmovie.jsx'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/content' element={<Content/>} />
           <Route path="/display" element={<DisplayPage/>} />
+          <Route path='/addmovies' element={<AddMovie/>} />
           
           
         </Routes>
